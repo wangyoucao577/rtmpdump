@@ -68,7 +68,8 @@ SHARED=yes
 SODEF_yes=-fPIC
 SOLIB_yes=librtmp$(SO_EXT)
 SOINST_yes=install_so
-SO_DEF=$(SODEF_$(SHARED))
+# SO_DEF=$(SODEF_$(SHARED))
+SO_DEF=$(SODEF_yes) # enable -fPIC for both static and shared
 SO_LIB=$(SOLIB_$(SHARED))
 SO_INST=$(SOINST_$(SHARED))
 
