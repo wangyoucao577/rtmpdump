@@ -8,3 +8,4 @@ rtmpgw
 rtmpsrv
 rtmpsuck
 librtmp.pc
+compile_commands.json
